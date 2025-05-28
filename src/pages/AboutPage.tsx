@@ -1,16 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
-import SectionHeading from '../components/common/SectionHeading';
-import SkillBar from '../components/common/SkillBar';
-import Button from '../components/ui/Button';
-import { skills, experiences, education } from '../data/skills';
-import AnimatedText from '../components/common/AnimatedText';
+import React from "react";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
+import SectionHeading from "../components/common/SectionHeading";
+import SkillBar from "../components/common/SkillBar";
+import Button from "../components/ui/Button";
+import { skills, experiences, education } from "../data/skills";
+import AnimatedText from "../components/common/AnimatedText";
 
 const AboutPage: React.FC = () => {
-  const developmentSkills = skills.filter(skill => skill.category === 'development');
-  const designSkills = skills.filter(skill => skill.category === 'design');
-  const toolSkills = skills.filter(skill => skill.category === 'tools');
+  const developmentSkills = skills.filter(
+    (skill) => skill.category === "development"
+  );
+  const designSkills = skills.filter((skill) => skill.category === "design");
+  const toolSkills = skills.filter((skill) => skill.category === "tools");
 
   return (
     <div className="pt-24 pb-16 md:pb-24">
@@ -24,21 +26,25 @@ const AboutPage: React.FC = () => {
               </h1>
               <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p>
-                  I'm a passionate full-stack developer with over 5 years of experience creating
-                  digital solutions that solve real-world problems. My journey in development
-                  began with a curiosity about how technology can improve people's lives, and
-                  that remains my driving motivation today.
+                  I'm a passionate full-stack developer with over 5 years of
+                  experience creating digital solutions that solve real-world
+                  problems. My journey in development began with a curiosity
+                  about how technology can improve people's lives, and that
+                  remains my driving motivation today.
                 </p>
                 <p>
-                  I specialize in building modern web and mobile applications using React,
-                  Node.js, and TypeScript. My approach combines technical expertise with an
-                  eye for design and a focus on user experience. Every project is an opportunity
-                  to create something that's not only functional but also intuitive and enjoyable to use.
+                  I specialize in building modern web and mobile applications
+                  using React, Node.js, and TypeScript. My approach combines
+                  technical expertise with an eye for design and a focus on user
+                  experience. Every project is an opportunity to create
+                  something that's not only functional but also intuitive and
+                  enjoyable to use.
                 </p>
                 <p>
-                  When I'm not coding, I enjoy exploring emerging technologies, contributing to
-                  open-source projects, and sharing knowledge with the development community.
-                  I believe in continuous learning and staying adaptable in an ever-evolving
+                  When I'm not coding, I enjoy exploring emerging technologies,
+                  contributing to open-source projects, and sharing knowledge
+                  with the development community. I believe in continuous
+                  learning and staying adaptable in an ever-evolving
                   technological landscape.
                 </p>
               </div>
@@ -53,9 +59,9 @@ const AboutPage: React.FC = () => {
             </div>
             <div className="relative">
               <div className="rounded-xl overflow-hidden shadow-lg">
-                <img 
-                  src="/profile.png" 
-                  alt="Portrait" 
+                <img
+                  src="/profile.png"
+                  alt="Portrait"
                   className="w-full h-auto"
                 />
               </div>
@@ -70,11 +76,11 @@ const AboutPage: React.FC = () => {
 
         {/* Skills Section */}
         <section className="mb-16 md:mb-24">
-          <SectionHeading 
-            title="My Skills" 
+          <SectionHeading
+            title="My Skills"
             subtitle="A comprehensive overview of my technical expertise and proficiency levels."
           />
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             {/* Development Skills */}
             <div>
@@ -87,7 +93,7 @@ const AboutPage: React.FC = () => {
                 ))}
               </div>
             </div>
-            
+
             {/* Design Skills */}
             <div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
@@ -99,7 +105,7 @@ const AboutPage: React.FC = () => {
                 ))}
               </div>
             </div>
-            
+
             {/* Tools & Other Skills */}
             <div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
@@ -116,16 +122,16 @@ const AboutPage: React.FC = () => {
 
         {/* Experience Section */}
         <section className="mb-16 md:mb-24">
-          <SectionHeading 
-            title="Experience" 
+          <SectionHeading
+            title="Experience"
             subtitle="My professional journey and previous roles."
           />
-          
+
           <div className="space-y-8">
             {experiences.map((exp, index) => (
-              <div 
+              <div
                 key={index}
-                className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm transition-all duration-300 hover:shadow-md"
+                className="bg-white dark:bg-black rounded-xl p-6 shadow-sm transition-all duration-300 hover:shadow-md"
               >
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                   <AnimatedText
@@ -149,16 +155,16 @@ const AboutPage: React.FC = () => {
 
         {/* Education Section */}
         <section>
-          <SectionHeading 
-            title="Education" 
+          <SectionHeading
+            title="Education"
             subtitle="My academic background and qualifications."
           />
-          
+
           <div className="space-y-6">
             {education.map((edu, index) => (
-              <div 
+              <div
                 key={index}
-                className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm transition-all duration-300 hover:shadow-md"
+                className="bg-white dark:bg-black rounded-xl p-6 shadow-sm transition-all duration-300 hover:shadow-md"
               >
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                   <AnimatedText

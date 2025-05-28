@@ -84,7 +84,7 @@ const ContactPage: React.FC = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 md:p-8">
+          <div className="bg-white dark:bg-black rounded-xl shadow-sm p-6 md:p-8">
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
               Send Me a Message
             </h3>
@@ -228,7 +228,7 @@ const ContactPage: React.FC = () => {
 
           {/* Contact Information */}
           <div>
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 md:p-8 mb-8">
+            <div className="bg-white dark:bg-black rounded-xl shadow-sm p-6 md:p-8 mb-8">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
                 Contact Information
               </h3>
@@ -277,7 +277,7 @@ const ContactPage: React.FC = () => {
                       Location
                     </h4>
                     <p className="text-gray-900 dark:text-white">
-                     Marrakech, Morocco
+                      Marrakech, Morocco
                     </p>
                   </div>
                 </div>
@@ -285,7 +285,7 @@ const ContactPage: React.FC = () => {
             </div>
 
             {/* Social Media */}
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm p-6 md:p-8">
+            <div className="bg-white dark:bg-black rounded-xl shadow-sm p-6 md:p-8">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
                 Connect With Me
               </h3>

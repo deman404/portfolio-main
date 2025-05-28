@@ -6,7 +6,7 @@
   body {
     @apply antialiased text-gray-900 dark:text-white;
   }
-  
+
   /* Dark Mode Setup */
   .dark {
     color-scheme: dark;
@@ -53,7 +53,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-gray-100 dark:bg-gray-800;
+  @apply bg-gray-100 dark:bg-black;
 }
 
 ::-webkit-scrollbar-thumb {
