@@ -72,7 +72,7 @@ export const projects: Project[] = [
       "supabase",
       "MySQL",
     ],
-    imageUrl: "/alphalise.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    imageUrl: "/Alphalise.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     featured: true,
     date: "mai 2025",
     clientName: "Alphalise Inc.",
@@ -103,6 +103,7 @@ export const projects: Project[] = [
         "Stripe (payments)",
       ],
       gallery: [
+        "/Alphalise.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "/alphalise-dashboard.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "/alphalise-signals.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       ],
