@@ -56,4 +56,56 @@ export const projects: Project[] = [
       ],
     },
   },
+  {
+    id: "alphalise",
+    title: "Alphalise AI Trading Analysis",
+    description:
+      "AI-powered trading analysis platform providing real-time market insights and precise trading signals.",
+    category: "AI Trading Analysis",
+    tags: [
+      "AI Agents",
+      "Trading Signals",
+      "Technical Analysis",
+      "Machine Learning",
+      "Next.js",
+      "Node.js",
+      "supabase",
+      "MySQL",
+    ],
+    imageUrl: "/alphalise.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    featured: true,
+    date: "mai 2025",
+    clientName: "Alphalise Inc.",
+    projectUrl: "https://www.alphalise.com/",
+    content: {
+      overview:
+        "Alphalise leverages advanced AI models to analyze market data and chart patterns in real time, delivering accurate entry points and trading signals. The platform continuously learns and adapts to market trends to optimize trading decisions for users.",
+      challenge:
+        "Traders struggle to process massive volumes of market data and identify reliable signals quickly. Manual technical analysis is time-consuming and prone to human error, limiting trading efficiency and profitability.",
+      solution: [
+        "Developed AI-driven analytics engine combining LLMs and technical indicators to generate actionable trading signals",
+        "Built real-time dashboard to visualize market trends, signal strength, and trade recommendations",
+        "Implemented adaptive learning algorithms to personalize signals based on user trading behavior and market changes",
+        "Integrated secure user authentication and subscription management via Firebase and Stripe",
+      ],
+      results: [
+        "Improved signal accuracy by over 90%, reducing false positives",
+        "Enhanced trader decision-making speed by 3x through real-time AI insights",
+        "Achieved high user retention and engagement through personalized analytics",
+        "Scalable platform supporting hundreds of simultaneous users with minimal latency",
+      ],
+      technologies: [
+        "Next.js",
+        "Node.js",
+        "Supabse (Auth, database)",
+        "MySQL",
+        "Python (AI/ML models)",
+        "Stripe (payments)",
+      ],
+      gallery: [
+        "/alphalise-dashboard.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "/alphalise-signals.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      ],
+    },
+  },
 ];
