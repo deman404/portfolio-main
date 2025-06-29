@@ -116,7 +116,7 @@ export const projects: Project[] = [
   "category": "SaaS Habits Tracker",
   "tags": [
     "Next.js",
-    "Supabase",
+    "Firebase",
     "Firebase Auth",
     "Habit Tracking",
     "SaaS",
@@ -126,7 +126,7 @@ export const projects: Project[] = [
   "imageUrl": "/DailyDone.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   "featured": true,
   "date": "juin 2025",
-  "clientName": "DailyDone Team",
+  "clientName": "Ayman Azhar",
   "projectUrl": "https://dailydone.example.com",
   "content": {
     "overview": "DailyDone permet aux utilisateurs de créer, suivre et gérer facilement leurs habitudes quotidiennes. L'application propose une interface simple pour marquer chaque jour si une habitude a été accomplie, et fournit des statistiques hebdomadaires pour suivre la progression et encourager la constance.",
@@ -139,7 +139,7 @@ export const projects: Project[] = [
       "Mise en place d'un design responsive et ergonomique avec Next.js et React"
     ],
     "results": [
-      "Application fonctionnelle en un jour (MVP) avec toutes les fonctionnalités principales",
+      "Application fonctionnelle en 3H (MVP) avec toutes les fonctionnalités principales",
       "Interface claire et facile à utiliser, favorisant l'engagement des utilisateurs",
       "Stockage fiable des données avec mise à jour en temps réel des statistiques",
       "Base solide pour futures évolutions telles que notifications et statistiques avancées"
@@ -148,7 +148,7 @@ export const projects: Project[] = [
       "Next.js",
       "React",
       "TypeScript",
-      "Supabase (authentification, base de données temps réel)",
+      "Firebase (authentification, base de données temps réel)",
       "Firebase Authentication",
       "TailwindCSS"
     ],
