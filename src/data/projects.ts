@@ -127,7 +127,7 @@ export const projects: Project[] = [
   "featured": true,
   "date": "juin 2025",
   "clientName": "Ayman Azhar",
-  "projectUrl": "https://dailydone.example.com",
+  "projectUrl": "https://daily-done-blue.vercel.app/",
   "content": {
     "overview": "DailyDone permet aux utilisateurs de créer, suivre et gérer facilement leurs habitudes quotidiennes. L'application propose une interface simple pour marquer chaque jour si une habitude a été accomplie, et fournit des statistiques hebdomadaires pour suivre la progression et encourager la constance.",
     "challenge": "De nombreux utilisateurs ont du mal à maintenir la régularité dans leurs habitudes, faute d'outils simples et motivants pour suivre leurs progrès. Il fallait concevoir une solution légère, rapide et sécurisée, accessible à tous.",
@@ -155,7 +155,8 @@ export const projects: Project[] = [
     "gallery": [
       "/DailyDone.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "/dailydone-dashboard.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "/dailydone-progress.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      "/dailydone-progress.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "dailydoneDatabase.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     ]
   }
 }
