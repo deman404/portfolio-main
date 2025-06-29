@@ -155,7 +155,7 @@ export const projects: Project[] = [
     "gallery": [
       "/DailyDone.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "/dailydone-dashboard.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "/dailydone-progress.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      
       "dailydoneDatabase.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     ]
   }
