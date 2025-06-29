@@ -292,7 +292,7 @@ const ContactPage: React.FC = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <a
-                  href="https://github.com/MrAymanAzhar"
+                  href="https://github.com/deman404"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center py-4 px-2 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-white hover:bg-teal-100 dark:hover:bg-teal-900/30 transition-colors"
