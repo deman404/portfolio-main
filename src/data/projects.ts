@@ -109,4 +109,55 @@ export const projects: Project[] = [
       ],
     },
   },
+  {
+  "id": "dailydone",
+  "title": "DailyDone",
+  "description": "Application SaaS simple et intuitive pour suivre et gérer ses habitudes quotidiennes, avec un suivi précis et une interface conviviale.",
+  "category": "SaaS Habits Tracker",
+  "tags": [
+    "Next.js",
+    "Supabase",
+    "Firebase Auth",
+    "Habit Tracking",
+    "SaaS",
+    "React",
+    "TypeScript"
+  ],
+  "imageUrl": "/DailyDone.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "featured": true,
+  "date": "juin 2025",
+  "clientName": "DailyDone Team",
+  "projectUrl": "https://dailydone.example.com",
+  "content": {
+    "overview": "DailyDone permet aux utilisateurs de créer, suivre et gérer facilement leurs habitudes quotidiennes. L'application propose une interface simple pour marquer chaque jour si une habitude a été accomplie, et fournit des statistiques hebdomadaires pour suivre la progression et encourager la constance.",
+    "challenge": "De nombreux utilisateurs ont du mal à maintenir la régularité dans leurs habitudes, faute d'outils simples et motivants pour suivre leurs progrès. Il fallait concevoir une solution légère, rapide et sécurisée, accessible à tous.",
+    "solution": [
+      "Création d'un système d'authentification sécurisé via Firebase pour la gestion des utilisateurs",
+      "Développement d'un tableau de bord interactif pour gérer les habitudes et visualiser les progrès",
+      "Implémentation d'un suivi quotidien avec possibilité de cocher l'accomplissement d'une habitude",
+      "Utilisation de Supabase comme base de données temps réel pour stocker habitudes et logs",
+      "Mise en place d'un design responsive et ergonomique avec Next.js et React"
+    ],
+    "results": [
+      "Application fonctionnelle en un jour (MVP) avec toutes les fonctionnalités principales",
+      "Interface claire et facile à utiliser, favorisant l'engagement des utilisateurs",
+      "Stockage fiable des données avec mise à jour en temps réel des statistiques",
+      "Base solide pour futures évolutions telles que notifications et statistiques avancées"
+    ],
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Supabase (authentification, base de données temps réel)",
+      "Firebase Authentication",
+      "TailwindCSS"
+    ],
+    "gallery": [
+      "/DailyDone.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/dailydone-dashboard.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/dailydone-progress.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    ]
+  }
+}
+
 ];
