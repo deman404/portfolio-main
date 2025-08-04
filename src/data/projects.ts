@@ -157,7 +157,62 @@ export const projects: Project[] = [
       "/dailydone-dashboard.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "/dailydone-database.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     ]
+  },
+    {
+  "id": "jcodac",
+  "title": "JCodac.com",
+  "description": "Plateforme éducative innovante dédiée à l'apprentissage pratique du développement logiciel, avec des cours interactifs, des projets concrets et une communauté de soutien.",
+  "category": "EdTech / SaaS",
+  "tags": [
+    "React",
+    "Firebase",
+    "Next.js",
+    "Supabase",
+    "TypeScript",
+    "Plateforme Éducative",
+    "Développement Web",
+    "Programmation"
+  ],
+  "imageUrl": "/jcodac-home.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "featured": true,
+  "date": "août 2025",
+  "clientName": "Ayman Azhar",
+  "projectUrl": "https://jcodac.com",
+  "content": {
+    "overview": "JCodac est une plateforme SaaS éducative dédiée à l’enseignement du code et du développement logiciel à travers une approche centrée sur la pratique. Elle offre des cours guidés, des exercices, des projets, des évaluations, un système de rôles (étudiants/profs) et un suivi personnalisé des progrès.",
+    "challenge": "Créer une plateforme complète pour apprendre la programmation de manière pratique, tout en gardant l’interface simple, fluide et adaptée aussi bien aux débutants qu’aux développeurs avancés. L’objectif était d’encourager l’engagement, l’apprentissage par la pratique et la motivation continue.",
+    "solution": [
+      "Développement d’un système d’authentification complet avec Firebase Authentication",
+      "Intégration d’un tableau de bord intelligent pour les étudiants et les enseignants",
+      "Utilisation de Supabase pour la gestion des cours, des utilisateurs, des groupes, des challenges et des monnaies virtuelles",
+      "Création de badges, de défis et d’un système de G Coins pour encourager la progression",
+      "Interface responsive et dynamique avec React, TailwindCSS et Next.js"
+    ],
+    "results": [
+      "Lancement de la première version en moins de 15 jours avec toutes les fonctionnalités principales",
+      "Plateforme fluide, rapide et intuitive utilisée par plusieurs enseignants et étudiants dès la bêta",
+      "Système modulaire permettant des évolutions futures comme l’intégration de l’IA et l’ajout de parcours personnalisés",
+      "Infrastructure évolutive prête à accueillir plusieurs milliers d’utilisateurs"
+    ],
+    "technologies": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Firebase",
+      "Supabase",
+      "TailwindCSS",
+      "Framer Motion",
+      "Lucide Icons"
+    ],
+    "gallery": [
+      "/jcodac-home.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/jcodac-dashboard.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/jcodac-profile.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "/jcodac-badges.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    ]
   }
+}
+
 }
 
 ];
